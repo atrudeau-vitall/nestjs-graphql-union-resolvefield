@@ -1,0 +1,40 @@
+{
+  "name": "nestjs-graphql-union-resolvefield",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nest start --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nestjs/apollo": "^10.1.0",
+    "@nestjs/common": "^9.0.11",
+    "@nestjs/config": "^2.0.0",
+    "@nestjs/core": "^9.0.11",
+    "@nestjs/graphql": "^10.1.1",
+    "@nestjs/platform-express": "^9.0.11",
+    "@nestjs/schematics": "^9.0.3",
+    "apollo-server": "3.6.2",
+    "apollo-server-core": "^3.8.2",
+    "apollo-server-express": "^3.6.3",
+    "apollo-server-integration-testing": "^3.0.0",
+    "class-transformer": "0.4.0",
+    "class-validator": "0.13.2",
+    "graphql": "^16.3.0",
+    "graphql-query-complexity": "0.11.0",
+    "graphql-subscriptions": "2.0.0",
+    "graphql-type-json": "^0.3.2",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.4.0"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^8.1.3",
+    "@types/node": "^16.11.1",
+    "supertest": "^6.1.6",
+    "ts-loader": "^9.2.6",
+    "ts-node": "^10.3.0",
+    "typescript": "^4.4.4"
+  }
+}
